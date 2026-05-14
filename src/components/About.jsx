@@ -27,13 +27,16 @@ function About() {
                 ogni prodotto è creato con fantasia eccessiva, entusiasmo discutibile e una totale assenza di limiti creativi.</p>
         </div>
         <div>
-            <h2>IL NOSTRO TEAM</h2>
-            <td>
-                <li>Inventori impulsivi</li>
-                <li>Designer senza supervisione</li>
-                <li>Persone che bevono troppo caffè</li>
-                <li>Un unicorno stagista (mai confermato ufficialmente)</li>
-            </td>
+            <div>
+    <h2>IL NOSTRO TEAM</h2>
+
+    <ul>
+        <li>Inventori impulsivi</li>
+        <li>Designer senza supervisione</li>
+        <li>Persone che bevono troppo caffè</li>
+        <li>Un unicorno stagista (mai confermato ufficialmente)</li>
+    </ul>
+</div>
         </div>
     </>
 }

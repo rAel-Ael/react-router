@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Home from "./components/Home";
 import Product from "./components/Product";
@@ -8,11 +8,14 @@ import PageLinks from "./components/PageLinks";
 function App() {
     return (
         <BrowserRouter>
-            <Routes path="" Component ={PageLinks}>
+            <Routes>
 
-                    <Route path="Home" Component={Home}/>
-                    <Route path= "About" Component={About} />
-                    <Route path="Contacts" Component={Product} />
+                    
+                <Route path="" element={<PageLinks />}>
+                    <Route path="home" element={<Home />} />
+                    <Route path="about" element={<About />} />
+                    <Route path="product" element={<Product />} />
+                </Route>
                 
 
             </Routes>
